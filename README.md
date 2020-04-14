@@ -71,14 +71,14 @@ I decided to create a website where users can post movie and game reviews. This 
 
 ### Trello and Planning
 
-![GitHub Logo](https://github.com/Amran-Lab/QA-SFIA/blob/master/Trello1.PNG?raw=true)
+![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/Trellob4.PNG?raw=true)
 
 
 
 
 <a name="TAP2"></a>
 
-![GitHub Logo](https://github.com/Amran-Lab/QA-SFIA/blob/master/Trello2.PNG?raw=true)
+![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/TrelloAf.PNG?raw=true)
 
 
 
