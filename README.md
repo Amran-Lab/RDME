@@ -62,7 +62,7 @@ I have created 4 tables excluding the user table. The four tables are paired up 
 
 
 
-
+![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/rmatrix.PNG?raw=true)
 
 \
 \
