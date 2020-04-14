@@ -57,6 +57,8 @@ I have created 4 tables excluding the user table. The four tables are paired up 
 | Running out of Money for Cloud                  | 3/10        | Pausing instance when not in use                  | 2/10            |
 | Getting Hacked                                  | 7/10        | Strong password                                   | 4/10            |
 | Open Port                                       | 4/10        | Make Port only accessible for public on one vm others closed to public                                  | 4/10            |
+| GCP Going Down                                  | 5/10        | Out Of Control                                   | 5g/10            |
+
 
 
 
