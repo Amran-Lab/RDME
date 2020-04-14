@@ -32,7 +32,9 @@ The Brief was to create a CI/CD pipeline using Jenkins andsible and docker.It sh
 
 I decided to make a higher/lower game with a deck of cards. With service once containing front end, service 2 picking a card, service 3 giving points/message and service 4 comapring what user picked to what happened(the calculations).
 
+### WireFrame
 
+![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/WireFrame.PNG?raw=true)
 
 
 
