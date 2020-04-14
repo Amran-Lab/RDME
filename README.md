@@ -95,7 +95,7 @@ for the user stories and requirements, to make sure I am meeting the requirement
 ![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/Diagram.png?raw=true)
 
 Program will be coded in vscode using python-flask and version controlled on GitHub. You can build with jenkins with the latest version. This will be ran on a GCP Virtual Machine which will be connected to a GCP MYSQL database. There are 4 services which are in a network.
-Service 1 gets card info from service 2 and service 2 gets player choice and new card infor from service 1 and sends back information to
+Service 1 gets card info from service 2 and service 4 gets player choice and new card info from service 1 and sends back information to
 service 1 depending on the choice and outcome the message will be altered by service 3.
 
 <a name="Testing"></a>
