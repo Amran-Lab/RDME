@@ -28,9 +28,9 @@
 
 ### Brief
 
-The Brief was to create a CRUD (Create, Read, Update, Delete) functioning website made by flask and deployed by Jenkins. The website must also have a minimum of two tables in a relational databases.
+The Brief was to create a CI/CD pipeline using Jenkins andsible and docker.It should also cnsist of 4 micro-services with data being persisted by sql.
 
-I decided to create a website where users can post movie and game reviews. This would be the create part of CRUD. For the read functionality I would let users be able to see reviews of their own and other people's reviews. Update would work by editing a review that already exists and delete will be able to delete both records and users.
+I decided to make a higher/lower game with a deck of cards. With service once containing front end, service 2 picking a card, service 3 giving points/message and service 4 comapring what user picked to what happened(the calculations).
 
 
 
