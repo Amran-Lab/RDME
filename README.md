@@ -3,7 +3,7 @@
 
 [Brief](#brief)
    * [My Solution](#mysolution)
-   * [WireFrame]
+   * [WireFrame](#WireFrame)
 [ERD and Diagrams](#erdanddiagrams)
 
 [Risk Assessment](#RA)
@@ -105,9 +105,9 @@ Program will be coded in vscode using python-flask and version controlled on Git
 
 ### Testing
 
-![GitHub Logo](https://github.com/Amran-Lab/QA-SFIA/blob/master/tests.png?raw=true)
 
-![GitHub Logo](https://github.com/Amran-Lab/QA-SFIA/blob/master/cov.png?raw=true)
+
+![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/coverage1.PNG?raw=true)
 
 <a name="Retrospective"></a>
 
