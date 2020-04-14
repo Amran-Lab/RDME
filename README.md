@@ -36,6 +36,8 @@ I decided to make a higher/lower game with a deck of cards. With service once co
 
 ![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/WireFrame.PNG?raw=true)
 
+I plan to have an apllication that gives you a card and you can pick higher or lower and compares it against a new card.
+You can submit you name and last go to sql.
 
 
 <a name="RA"></a>
