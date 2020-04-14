@@ -48,17 +48,17 @@ I have created 4 tables excluding the user table. The four tables are paired up 
 
 | Risk Assessment                                 | Risk Factor | Mitigating                                        | New Risk Factor |
 |-------------------------------------------------|-------------|---------------------------------------------------|-----------------|
-| Corrupted Files                                 | 8/10        | Online Version Control                            | 3/10            |
-| Deleted Files                                   | 6/10        | Online Version Control                            | 1/10            |
-| Losing Git Password                             | 9/10        | Have Email Recovery                               | 2/10            |
-| Falling Sick                                    | 9/10        | Maintain Health/Visiting Doc/Sanitizing/Isolating | 7/10            |
-| Data of Site Leaked                             | 3/10        | Hashing/Storing Sensitive Information In Secure Locations             | 1/10            |
-| Not Understanding Own Code                      | 7/10        | Good Commenting                                   | 5/10            |
-| Underestimation of the time/resource commitment | 6/10        | Trello Board                                      | 4/10            |
-| Running out of Money for Cloud                  | 3/10        | Pausing instance when not in use                  | 2/10            |
-| Getting Hacked                                  | 7/10        | Strong password                                   | 4/10            |
-| Open Port                                       | 4/10        | Make Port only accessible for public on one vm others closed to public                                  | 4/10            |
-| GCP Going Down                                  | 5/10        | Out Of Control                                   | 5g/10            |
+| 1.Corrupted Files                                 | 8/10        | Online Version Control                            | 3/10            |
+| 2.Deleted Files                                   | 6/10        | Online Version Control                            | 1/10            |
+| 3.Losing Git Password                             | 9/10        | Have Email Recovery                               | 2/10            |
+| 4.Falling Sick                                    | 9/10        | Maintain Health/Visiting Doc/Sanitizing/Isolating | 7/10            |
+| 5.Data of Site Leaked                             | 3/10        | Hashing/Storing Sensitive Information In Secure Locations             | 1/10            |
+| 6.Not Understanding Own Code                      | 7/10        | Good Commenting                                   | 5/10            |
+| 7.Underestimation of the time/resource commitment | 6/10        | Trello Board                                      | 4/10            |
+| 8.Running out of Money for Cloud                  | 3/10        | Pausing instance when not in use/Not Making Many VMS                  | 2/10            |
+| 9.Getting Hacked                                  | 7/10        | Strong password                                   | 4/10            |
+| 10.Open Port                                       | 4/10        | Make Port only accessible for public on one vm others closed to public                                  | 4/10            |
+| 11.GCP Going Down                                  | 5/10        | Out Of Control                                   | 5g/10            |
 
 
 
