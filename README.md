@@ -102,6 +102,12 @@ Program will be coded in vscode using python-flask and version controlled on Git
 Service 1 gets card info from service 2 and service 4 gets player choice and new card info from service 1 and sends back information to
 service 1 depending on the choice and outcome the message will be altered by service 3.
 
+### NGINX
+
+Nginx is there as a reverse proxy it works as an extra layer of security so no one directly accesses the container. It also means
+I only need to oper port 80 to the public for one VM.
+
+
 <a name="Testing"></a>
 
 ### Testing
