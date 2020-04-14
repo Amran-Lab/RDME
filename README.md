@@ -94,7 +94,9 @@ for the user stories and requirements, to make sure I am meeting the requirement
 
 ![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/Diagram.png?raw=true)
 
-Program will be coded in vscode using python-flask and version controlled on GitHub. When changes are made a trigger will cause Jenkins to build the program with the latest version. This will be ran on a GCP Virtual Machine which will be connected to a GCP MYSQL database.
+Program will be coded in vscode using python-flask and version controlled on GitHub. You can build with jenkins with the latest version. This will be ran on a GCP Virtual Machine which will be connected to a GCP MYSQL database. There are 4 services which are in a network.
+Service 1 gets card info from service 2 and service 2 gets player choice and new card infor from service 1 and sends back information to
+service 1 depending on the choice and outcome the message will be altered by service 3.
 
 <a name="Testing"></a>
 
@@ -104,37 +106,55 @@ Program will be coded in vscode using python-flask and version controlled on Git
 
 ![GitHub Logo](https://github.com/Amran-Lab/RDME/blob/master/coverage1.PNG?raw=true)
 
+I tested service 1 because the main stuff happen there I also tested for URL and DB.
+
 <a name="Retrospective"></a>
 
 ### Retrospective
 
-I have created a flask application and deployed it onto a virtual machine with jenkins,
-using Agile methodology. The application can connect to a gcp database and read write to it.
-If I was to have more time or do it again I would allow functionality to users to be able to log in with a password, for a layer of authentication and security.
+### What Went Well?
++ CI/CD Pipleline with jenkins
++ Working ansible and docker compose
++ Code easy to read
++ Good Version Control
 
-What Went Well
-4 tables excluding the user table with two pairs of relation​
+### Problems
++ GCP going down
++ ssh keys not working (fixed by changing permission of priv ssh file)
++ service 4 uses global variables 
++ Entering Data to Database has some problems
 
-Good use of Jenkins, making it build on new GitHub version of the app​
-
-Good Time Management​
-
-Easy to use graphical interface
-
-What could be better
-
-A login feature​
-
-Selenium Testing​
-
-Add more games and movies for user to review​
-
-Write code in a way that is more easier to test
+### Future Improvements
++ merge service 4 to service 1
++ Better Looking Frontend
++ Full CRUD
 
 <a name="Run"></a>
 
 ### How To Run
 
-<a name="Problems"></a>
+1. Download Jenkins for Ubuntu (turorial https://jenkins.io/doc/book/installing/#debianubuntu)
+2. Set Up firewall port 5000 open to public on vm
+3. Set Up mysql database
+5. Create Pipeline
+4. Create .env file with database info to pass to conatainer written in form in the jenkins workspace for that pipeline
+    ```
+        MYSQl_HOST=xxx...
+        MYSQl_PASSWORD=xxx...
+        MYSQl_USER=xxx...
+        MYSQl_DB=xxx...
+ 
+ 
+5. Create an inventory.cfg file
+    ```[servers]
+        localhost ansible_connection = local ansible_user=.... ansible_ssh_private_key_file= Location of File
+        Host Address ansible_connection = ssh ansible_user=.... ansible_ssh_private_key_file= Location of File
+        Host Address ansible_connection = ssh ansible_user=.... ansible_ssh_private_key_file= Location of File
+        [swarm-manager]
+        localhost ansible_connection=local       
+        [swarm-workers]
+        Host Address ansible_connection = ssh ansible_user=.... ansible_ssh_private_key_file= Location of File
+        Host Address ansible_connection = ssh ansible_user=.... ansible_ssh_private_key_file= Location of File
+ 6. Give Jenkins sudo access
+ 7. Run Pipeline
 
-### Problems
