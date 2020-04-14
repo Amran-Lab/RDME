@@ -121,6 +121,7 @@ I tested service 1 because the main stuff happen there I also tested for URL and
 ### Problems
 + GCP going down
 + ssh keys not working (fixed by changing permission of priv ssh file)
++ ssh key checking (fixed check how to run for further details)
 + service 4 uses global variables 
 + Entering Data to Database has some problems
 
@@ -156,5 +157,6 @@ I tested service 1 because the main stuff happen there I also tested for URL and
         Host Address ansible_connection = ssh ansible_user=.... ansible_ssh_private_key_file= Location of File
         Host Address ansible_connection = ssh ansible_user=.... ansible_ssh_private_key_file= Location of File
  6. Give Jenkins sudo access
+ 7. export ANSIBLE_HOST_KEY_CHECKING=False or change it at /etc/ansible/ansible.cfg (..https://stackoverflow.com/questions/23074412/how-to-set-host-key-checking-false-in-ansible-inventory-file)
  7. Run Pipeline
 
