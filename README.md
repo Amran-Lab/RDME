@@ -3,7 +3,7 @@
 
 [Brief](#brief)
    * [My Solution](#mysolution)
-   
+   * [WireFrame]
 [ERD and Diagrams](#erdanddiagrams)
 
 [Risk Assessment](#RA)
@@ -18,6 +18,10 @@
 [Testing](#Testing)
 
 [Retrospective](#Retro)  
+
+[How To Run](#Run)  
+
+[Problems](#Problems)
 
 <a name="brief"></a>
 
