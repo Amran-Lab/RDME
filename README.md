@@ -5,7 +5,7 @@
    * [My Solution](#mysolution)
    * [WireFrame](#WireFrame)
    
-[ERD and Diagrams](#erdanddiagrams)
+
 
 [Risk Assessment](#RA)
 
@@ -32,13 +32,7 @@ The Brief was to create a CRUD (Create, Read, Update, Delete) functioning websit
 
 I decided to create a website where users can post movie and game reviews. This would be the create part of CRUD. For the read functionality I would let users be able to see reviews of their own and other people's reviews. Update would work by editing a review that already exists and delete will be able to delete both records and users.
 
-<a name="erdanddiagrams"></a>
 
-### ERD
-
-![GitHub Logo](https://github.com/Amran-Lab/QA-SFIA/blob/master/SFIA-Entity%20Relation%20Diagram.png?raw=true)
-
-I have created 4 tables excluding the user table. The four tables are paired up with one of each pair being connected to the accounts table, meeting the requirements for the relational database.
 
 
 
@@ -136,3 +130,11 @@ Selenium Testing​
 Add more games and movies for user to review​
 
 Write code in a way that is more easier to test
+
+<a name="Run"></a>
+
+### How To Run
+
+<a name="Problems"></a>
+
+### Problems
